@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="nav">
+            <a href="index.html"  class="logo-container">
+                <img src="images/logo.png" class="logo">
+                <span class="company-name">Young Construction</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Building Dreams, Creating Legacies.</h1>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-------SERVICES------>
+    <section class="services">
+        <h1>Services We Offer </h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Carpentry</h3>
+                <p>Upgrade your interiors with our custom interior door installations, available in various styles and finishes.Ensure privacy and security with our durable and stylish fencing installations.Bring rustic charm to your interiors with our custom ceiling beam installations.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Roofing</h3>
+                <p>Our roof repair services address leaks, damaged shingles, and other issues to extend the life of your roof and protect your home.Protect your home from water damage with our professional gutter installation and repair services.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Flooring and Tiles</h3>
+                <p>Experience the timeless beauty and durability of hardwood floors with our expert installation services."Create stunning feature walls with our professional wall tiling services, perfect for kitchens and bathrooms.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Decks</h3>
+                <p>Expand your living space with our custom deck construction services, perfect for outdoor entertaining and relaxation.Our deck services include design, construction, and finishing, ensuring a perfect outdoor area for your needs.</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Fence/Gates</h3>
+                <p>Enhance your property's privacy and aesthetic with our custom wooden fences and matching gates, crafted from high-quality materials.Secure your home or business with our high-quality security fences, providing peace of mind and protection.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Pressure Washing</h3>
+                <p>Restore the original beauty of your brick or stone surfaces with our professional pressure washing services, removing years of dirt and discoloration.Remove unsightly stains and buildup from your roof with our safe and effective pressure washing services.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Painting</h3>
+                <p>Revitalize your living space and enhance curb appeal with our expert interior and exterior painting service.Enjoy a seamless painting experience with our dedicated interior and exterior painting team, committed to excellence.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Landscaping</h3>
+                <p>Achieve maximum privacy and a polished look for your backyard with our expertly installed privacy fences and gates.Ensure your landscape is secure with our cost-effective chain link fences and gates, ideal for any property.</p>
+            </div>
+        </div>
+    </section>
+    <!---------JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
