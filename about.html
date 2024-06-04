@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Young Construction</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="nav">
+        <a href="index.html" class="logo-container">
+          <img src="images/logo.png" class="logo" />
+          <span class="company-name">Young Construction</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-------About Us------>
+    <div class="heading">
+      <p>
+        Transforming visions into reality, Young Construction Company is your
+        trusted partner for quality construction solutions. With a commitment to
+        excellence, innovation, and client satisfaction, we specialize in new
+        construction, renovations, and project management. Contact us today to
+        bring your dreams to life.
+      </p>
+    </div>
+
+    <div class="container">
+      <section class="about">
+        <div class="about-image">
+          <img src="images/about.png" />
+        </div>
+        <div class="about-content">
+          <h2>Crafting Excellence in Construction</h2>
+          <p>
+            At Young Construction Company, we turn your visions into reality
+            with unparalleled expertise and a commitment to excellence.
+            Specializing in both commercial and residential construction, we
+            deliver top-quality projects on time and within budget. Our
+            innovative approach, attention to detail, and client-centric
+            philosophy ensure a seamless and satisfying construction experience.
+            Trust us to build your future with integrity, reliability, and
+            unmatched quality.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="about">
+        <div class="about-content">
+          <h2>Where Precision Meets Perfection</h2>
+          <p>
+            At Young Construction Company, we're more than builders; we're
+            creators of exceptional spaces. With a passion for quality and a
+            commitment to innovation, we deliver construction solutions that
+            exceed expectations. Our experienced team prioritizes reliability,
+            transparency, and client satisfaction, ensuring every project is a
+            success. From new construction to renovations, we specialize in
+            bringing visions to life. Let us turn your dreams into reality
+            contact us today to get started.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="images/worker.jpg" />
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="about">
+        <div class="about-image">
+          <img src="images/www.png" />
+        </div>
+        <div class="about-content">
+          <h2>Building with Integrity, Delivering with Pride</h2>
+          <p>
+            We are dedicated to transforming visions into
+            reality with superior construction services. With a commitment to
+            quality, reliability, and innovation, our experienced team delivers
+            exceptional results on every project. We specialize in new
+            construction, renovations, and commercial and residential builds,
+            ensuring client satisfaction through open communication and
+            meticulous attention to detail. Partner with us to experience
+            excellence in construction.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!---------JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
